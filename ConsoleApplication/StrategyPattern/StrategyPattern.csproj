@@ -41,12 +41,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Behaviors\FlyBehaviors\FlyNoWay.cs" />
+    <Compile Include="Behaviors\FlyBehaviors\FlyRocketPowered.cs" />
     <Compile Include="Behaviors\FlyBehaviors\FlyWithWings.cs" />
     <Compile Include="Behaviors\QuackBehaviors\MuteQuack.cs" />
     <Compile Include="Behaviors\QuackBehaviors\Quack.cs" />
     <Compile Include="Behaviors\QuackBehaviors\Squeak.cs" />
     <Compile Include="Ducks\Duck.cs" />
     <Compile Include="Ducks\MallardDuck.cs" />
+    <Compile Include="Ducks\ModelDuck.cs" />
     <Compile Include="Interfaces\IFlyBehavior.cs" />
     <Compile Include="Interfaces\IQuackBehavior.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

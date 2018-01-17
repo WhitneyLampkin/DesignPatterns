@@ -20,6 +20,11 @@ namespace DesignPatterns.StrategyPattern
 
         }
 
+        public void swim()
+        {
+            Console.Write("All ducks float, even decoys!");
+        }
+
         public abstract void display();
 
         public void performFly()
@@ -32,9 +37,16 @@ namespace DesignPatterns.StrategyPattern
             quackBehavior.quack();
         }
 
-        public void swim()
+        // Used to change the fly behavior at anytime.
+        public void setFlyBehavior(IFlyBehavior fb)
         {
-            Console.Write("All ducks float, even decoys!");
+            flyBehavior = fb;
+        }
+
+        // Used to change the quack behavior at anytime.
+        public void setQuackBehavior(IQuackBehavior qb)
+        {
+            quackBehavior = qb;
         }
     }
 }
