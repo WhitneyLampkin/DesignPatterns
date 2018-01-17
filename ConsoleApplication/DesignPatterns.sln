@@ -13,6 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{96BA2330-95E4-4617-8565-EAC69A6862D5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{F913A882-5DB4-40A3-BBC6-59F22FAACA81}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Whitney\DesignPatternImages\StrategyPatternDiagram.png = ..\..\..\..\Desktop\Whitney\DesignPatternImages\StrategyPatternDiagram.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
