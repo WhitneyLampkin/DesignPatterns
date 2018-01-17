@@ -4,11 +4,11 @@ using System;
 namespace StrategyPattern.Behaviors.QuackBehaviors
 {
     /// <summary>
-    /// Quack behavior for ducks that quack.
+    /// Quack behavior for ducks that Quack.
     /// </summary>
     public class Quack : IQuackBehavior
     {
-        public void quack()
+        public void Quack()
         {
             Console.WriteLine("Quack");
         }

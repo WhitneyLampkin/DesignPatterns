@@ -11,6 +11,6 @@ namespace StrategyPattern.Interfaces
     /// </summary>
     public interface IQuackBehavior
     {
-        void quack();
+        void Quack();
     }
 }

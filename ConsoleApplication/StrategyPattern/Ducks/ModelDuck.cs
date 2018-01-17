@@ -21,7 +21,7 @@ namespace StrategyPattern.Ducks
             quackBehavior = new Quack();
         }
 
-        public override void display()
+        public override void Display()
         {
             Console.WriteLine("I'm a model duck.");
         }

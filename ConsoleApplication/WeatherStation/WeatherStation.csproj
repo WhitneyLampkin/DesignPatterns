@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{96BA2330-95E4-4617-8565-EAC69A6862D5}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{A13F16F5-7141-4ACE-B364-52D2068409D6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StrategyPattern</RootNamespace>
-    <AssemblyName>StrategyPattern</AssemblyName>
+    <RootNamespace>WeatherStation</RootNamespace>
+    <AssemblyName>WeatherStation</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,22 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Behaviors\FlyBehaviors\FlyNoWay.cs" />
-    <Compile Include="Behaviors\FlyBehaviors\FlyRocketPowered.cs" />
-    <Compile Include="Behaviors\FlyBehaviors\FlyWithWings.cs" />
-    <Compile Include="Behaviors\QuackBehaviors\MuteQuack.cs" />
-    <Compile Include="Behaviors\QuackBehaviors\Quack.cs" />
-    <Compile Include="Behaviors\QuackBehaviors\Squeak.cs" />
-    <Compile Include="Ducks\Duck.cs" />
-    <Compile Include="Ducks\MallardDuck.cs" />
-    <Compile Include="Ducks\ModelDuck.cs" />
-    <Compile Include="Interfaces\IFlyBehavior.cs" />
-    <Compile Include="Interfaces\IQuackBehavior.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="StrategyDefinition.txt" />
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

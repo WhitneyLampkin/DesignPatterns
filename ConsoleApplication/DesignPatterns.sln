@@ -15,8 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "Strategy
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{F913A882-5DB4-40A3-BBC6-59F22FAACA81}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Whitney\DesignPatternImages\Chapter1Review.png = ..\..\..\..\Desktop\Whitney\DesignPatternImages\Chapter1Review.png
 		..\..\..\..\Desktop\Whitney\DesignPatternImages\StrategyPatternDiagram.png = ..\..\..\..\Desktop\Whitney\DesignPatternImages\StrategyPatternDiagram.png
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{CAEE05E3-E3F4-429B-8217-6810FDBDA55D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "WeatherStation\WeatherStation.csproj", "{A13F16F5-7141-4ACE-B364-52D2068409D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,11 +37,20 @@ Global
 		{96BA2330-95E4-4617-8565-EAC69A6862D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96BA2330-95E4-4617-8565-EAC69A6862D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96BA2330-95E4-4617-8565-EAC69A6862D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEE05E3-E3F4-429B-8217-6810FDBDA55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEE05E3-E3F4-429B-8217-6810FDBDA55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEE05E3-E3F4-429B-8217-6810FDBDA55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEE05E3-E3F4-429B-8217-6810FDBDA55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13F16F5-7141-4ACE-B364-52D2068409D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13F16F5-7141-4ACE-B364-52D2068409D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13F16F5-7141-4ACE-B364-52D2068409D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13F16F5-7141-4ACE-B364-52D2068409D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{96BA2330-95E4-4617-8565-EAC69A6862D5} = {D0B4CD16-93D4-4AD9-A401-101FFDD246C8}
+		{CAEE05E3-E3F4-429B-8217-6810FDBDA55D} = {D0B4CD16-93D4-4AD9-A401-101FFDD246C8}
 	EndGlobalSection
 EndGlobal

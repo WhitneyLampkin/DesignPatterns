@@ -8,7 +8,7 @@ namespace StrategyPattern.Behaviors.QuackBehaviors
         /// <summary>
         /// Quack behavior for ducks that squeak.
         /// </summary>
-        public void quack()
+        public void Quack()
         {
             Console.WriteLine("Squeak");
         }

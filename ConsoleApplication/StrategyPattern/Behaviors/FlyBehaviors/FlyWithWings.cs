@@ -8,7 +8,7 @@ namespace StrategyPattern.Behaviors
     /// </summary>
     internal class FlyWithWings : IFlyBehavior
     {
-        public void fly()
+        public void Fly()
         {
             Console.WriteLine("I'm flying.");
         }

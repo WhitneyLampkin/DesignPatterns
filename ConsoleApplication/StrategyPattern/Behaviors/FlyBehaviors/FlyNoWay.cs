@@ -8,7 +8,7 @@ namespace StrategyPattern.Behaviors
     /// </summary>
     internal class FlyNoWay : IFlyBehavior
     {
-        public void fly()
+        public void Fly()
         {
             Console.WriteLine("I can't fly");
         }

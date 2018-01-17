@@ -5,6 +5,6 @@
     /// </summary>
     public interface IFlyBehavior
     {
-        void fly();
+        void Fly();
     }
 }

@@ -4,11 +4,11 @@ using System;
 namespace StrategyPattern.Behaviors.QuackBehaviors
 {
     /// <summary>
-    /// Quack behavior for ducks that do not quack.
+    /// Quack behavior for ducks that do not Quack.
     /// </summary>
     public class MuteQuack : IQuackBehavior
     {
-        public void quack()
+        public void Quack()
         {
             Console.WriteLine("<< Silence >>");
         }

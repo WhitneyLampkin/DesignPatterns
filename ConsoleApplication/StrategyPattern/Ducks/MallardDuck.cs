@@ -13,9 +13,9 @@ namespace DesignPatterns.StrategyPattern
     public class MallardDuck : Duck
     {
         /// <summary>
-        /// A MallardDuck uses the Quack class to handle its quack,
-        /// so when performQuack is called, the responsibility for
-        /// the quack is delegated to the Quack object and we get a real quack.
+        /// A MallardDuck uses the Quack class to handle its Quack,
+        /// so when PerformQuack is called, the responsibility for
+        /// the Quack is delegated to the Quack object and we get a real Quack.
         /// And it uses FlyWithWings as its IFlyBehavior.
         /// </summary>
         public MallardDuck()
@@ -25,7 +25,7 @@ namespace DesignPatterns.StrategyPattern
             flyBehavior = new FlyWithWings();
         }
 
-        public override void display()
+        public override void Display()
         {
             Console.WriteLine("I'm a real Mallard duck.");
         }

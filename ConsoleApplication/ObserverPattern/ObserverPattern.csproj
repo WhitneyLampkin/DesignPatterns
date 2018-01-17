@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{96BA2330-95E4-4617-8565-EAC69A6862D5}</ProjectGuid>
+    <ProjectGuid>{CAEE05E3-E3F4-429B-8217-6810FDBDA55D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StrategyPattern</RootNamespace>
-    <AssemblyName>StrategyPattern</AssemblyName>
+    <RootNamespace>ObserverPattern</RootNamespace>
+    <AssemblyName>ObserverPattern</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,22 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Behaviors\FlyBehaviors\FlyNoWay.cs" />
-    <Compile Include="Behaviors\FlyBehaviors\FlyRocketPowered.cs" />
-    <Compile Include="Behaviors\FlyBehaviors\FlyWithWings.cs" />
-    <Compile Include="Behaviors\QuackBehaviors\MuteQuack.cs" />
-    <Compile Include="Behaviors\QuackBehaviors\Quack.cs" />
-    <Compile Include="Behaviors\QuackBehaviors\Squeak.cs" />
-    <Compile Include="Ducks\Duck.cs" />
-    <Compile Include="Ducks\MallardDuck.cs" />
-    <Compile Include="Ducks\ModelDuck.cs" />
-    <Compile Include="Interfaces\IFlyBehavior.cs" />
-    <Compile Include="Interfaces\IQuackBehavior.cs" />
+    <Compile Include="Interfaces\IDisplayElement.cs" />
+    <Compile Include="Interfaces\IObserver.cs" />
+    <Compile Include="Interfaces\ISubject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WeatherData.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="StrategyDefinition.txt" />
+    <Content Include="ObserverDefinition.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

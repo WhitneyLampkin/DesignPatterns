@@ -20,31 +20,31 @@ namespace DesignPatterns.StrategyPattern
 
         }
 
-        public void swim()
+        public void Swim()
         {
             Console.Write("All ducks float, even decoys!");
         }
 
-        public abstract void display();
+        public abstract void Display();
 
-        public void performFly()
+        public void PerformFly()
         {
-            flyBehavior.fly();
+            flyBehavior.Fly();
         }
 
-        public void performQuack()
+        public void PerformQuack()
         {
-            quackBehavior.quack();
+            quackBehavior.Quack();
         }
 
         // Used to change the fly behavior at anytime.
-        public void setFlyBehavior(IFlyBehavior fb)
+        public void SetFlyBehavior(IFlyBehavior fb)
         {
             flyBehavior = fb;
         }
 
-        // Used to change the quack behavior at anytime.
-        public void setQuackBehavior(IQuackBehavior qb)
+        // Used to change the Quack behavior at anytime.
+        public void SetQuackBehavior(IQuackBehavior qb)
         {
             quackBehavior = qb;
         }
