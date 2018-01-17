@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using StrategyPattern.Interfaces;
+using System;
 
 namespace DesignPatterns.StrategyPattern
 {
@@ -27,6 +25,11 @@ namespace DesignPatterns.StrategyPattern
         public void performFly()
         {
             flyBehavior.fly();
+        }
+
+        public void performQuack()
+        {
+            quackBehavior.quack();
         }
 
         public void swim()

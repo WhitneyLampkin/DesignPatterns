@@ -40,14 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviors\FlyBehaviors\FlyNoWay.cs" />
+    <Compile Include="Behaviors\FlyBehaviors\FlyWithWings.cs" />
+    <Compile Include="Behaviors\QuackBehaviors\MuteQuack.cs" />
+    <Compile Include="Behaviors\QuackBehaviors\Quack.cs" />
+    <Compile Include="Behaviors\QuackBehaviors\Squeak.cs" />
     <Compile Include="Ducks\Duck.cs" />
     <Compile Include="Ducks\MallardDuck.cs" />
+    <Compile Include="Interfaces\IFlyBehavior.cs" />
+    <Compile Include="Interfaces\IQuackBehavior.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Behaviors\" />
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

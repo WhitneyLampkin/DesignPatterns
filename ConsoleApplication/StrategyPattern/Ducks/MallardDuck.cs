@@ -1,4 +1,6 @@
-﻿using System;
+﻿using StrategyPattern.Behaviors;
+using StrategyPattern.Behaviors.QuackBehaviors;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

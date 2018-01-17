@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{42D48A79-2086-4390-96C9-46779B89E692}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniDuckSimulator", "ConsoleApplication\MiniDuckSimulator.csproj", "{42D48A79-2086-4390-96C9-46779B89E692}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{D0B4CD16-93D4-4AD9-A401-101FFDD246C8}"
 EndProject
