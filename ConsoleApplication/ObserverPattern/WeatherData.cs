@@ -4,7 +4,7 @@ using System.Collections;
 namespace ObserverPattern
 {
     /// <summary>
-    /// The WeatherData objects that knows how to get information from the Weather Station.
+    /// The WeatherData object that knows how to get information from the Weather Station.
     /// </summary>
     public class WeatherData : ISubject
     {
@@ -45,7 +45,7 @@ namespace ObserverPattern
         }
 
         /// <summary>
-        /// Notifies observers when measurements are updated from the Weather Station.
+        /// Method that tells observers about the state.
         /// </summary>
         public void NotifyObservers()
         {
@@ -56,6 +56,9 @@ namespace ObserverPattern
             }
         }
 
+        /// <summary>
+        /// Notifies observers when measurements are updated from the Weather Station.
+        /// </summary>
         public void MeasurementsChanged()
         {
             NotifyObservers();

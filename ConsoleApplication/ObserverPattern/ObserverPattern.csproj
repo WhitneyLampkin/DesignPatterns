@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DisplayElements\CurrentConditionsDisplay.cs" />
+    <Compile Include="DisplayElements\ForecastDisplay.cs" />
+    <Compile Include="DisplayElements\StatisticsDisplay.cs" />
     <Compile Include="Interfaces\IDisplayElement.cs" />
     <Compile Include="Interfaces\IObserver.cs" />
     <Compile Include="Interfaces\ISubject.cs" />
