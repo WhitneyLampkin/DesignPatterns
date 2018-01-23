@@ -21,7 +21,7 @@ namespace DesignPatterns.StrategyPattern
         public MallardDuck()
         {
             // These two instance variables are inherited from the Duck superclass.
-            quackBehavior = new Quack();
+            quackBehavior = new Quacks();
             flyBehavior = new FlyWithWings();
         }
 

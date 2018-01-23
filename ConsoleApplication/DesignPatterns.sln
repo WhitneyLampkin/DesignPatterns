@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "Observer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "WeatherStation\WeatherStation.csproj", "{A13F16F5-7141-4ACE-B364-52D2068409D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{67F63B61-2D2A-45C6-B579-263A31B7C01D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarbuzzCoffee", "StarbuzzCoffee\StarbuzzCoffee.csproj", "{9B2A2396-784E-434C-8FCA-173E9E0265CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{A13F16F5-7141-4ACE-B364-52D2068409D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A13F16F5-7141-4ACE-B364-52D2068409D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A13F16F5-7141-4ACE-B364-52D2068409D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F63B61-2D2A-45C6-B579-263A31B7C01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F63B61-2D2A-45C6-B579-263A31B7C01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F63B61-2D2A-45C6-B579-263A31B7C01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F63B61-2D2A-45C6-B579-263A31B7C01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B2A2396-784E-434C-8FCA-173E9E0265CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2A2396-784E-434C-8FCA-173E9E0265CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2A2396-784E-434C-8FCA-173E9E0265CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2A2396-784E-434C-8FCA-173E9E0265CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,5 +64,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{96BA2330-95E4-4617-8565-EAC69A6862D5} = {D0B4CD16-93D4-4AD9-A401-101FFDD246C8}
 		{CAEE05E3-E3F4-429B-8217-6810FDBDA55D} = {D0B4CD16-93D4-4AD9-A401-101FFDD246C8}
+		{67F63B61-2D2A-45C6-B579-263A31B7C01D} = {258F66B7-8129-4FE1-8DA8-B3F52574FFD3}
 	EndGlobalSection
 EndGlobal

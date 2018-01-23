@@ -2,10 +2,6 @@
 using StrategyPattern.Behaviors;
 using StrategyPattern.Behaviors.QuackBehaviors;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StrategyPattern.Ducks
 {
@@ -18,7 +14,7 @@ namespace StrategyPattern.Ducks
         {
             // The model duck begins like grounded without a way to fly.
             flyBehavior = new FlyNoWay();
-            quackBehavior = new Quack();
+            quackBehavior = new Quacks();
         }
 
         public override void Display()
