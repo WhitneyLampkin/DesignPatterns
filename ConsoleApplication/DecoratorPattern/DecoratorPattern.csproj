@@ -40,7 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AbstractClasses\Beverage.cs" />
+    <Compile Include="Beverages\DarkRoast.cs" />
+    <Compile Include="Beverages\Decaf.cs" />
+    <Compile Include="Beverages\Espresso.cs" />
+    <Compile Include="Beverages\HouseBlend.cs" />
+    <Compile Include="AbstractClasses\CondimentDecorator.cs" />
+    <Compile Include="Condiments\Mocha.cs" />
+    <Compile Include="Condiments\Soy.cs" />
+    <Compile Include="Condiments\SteamedMilk.cs" />
+    <Compile Include="Condiments\Whip.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
