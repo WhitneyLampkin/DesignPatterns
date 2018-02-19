@@ -13,9 +13,9 @@ namespace DecoratorPattern
     {
         public string description = "Unknown Beverage";
 
-        public string GetDescription()
+        public virtual string Description
         {
-            return description;
+            get { return description; }
         }
 
         /// <summary>

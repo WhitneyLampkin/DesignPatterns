@@ -22,9 +22,9 @@ namespace DecoratorPattern.Condiments
         /// Gets the current description and appends the soy description
         /// </summary>
         /// <returns></returns>
-        public override string GetDescription()
+        public override string Description
         {
-            return beverage.GetDescription() + ", Soy";
+            get { return beverage.Description + ", Soy"; }
         }
 
         /// <summary>

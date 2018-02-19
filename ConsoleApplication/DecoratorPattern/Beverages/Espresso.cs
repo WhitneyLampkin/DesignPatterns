@@ -14,9 +14,9 @@ namespace DecoratorPattern.Beverages
         /// <summary>
         /// Sets the beverage's description 
         /// </summary>
-        public Espresso()
+        public override string Description
         {
-            description = "Expresso";
+            get { return "Expresso"; }
         }
 
         /// <summary>

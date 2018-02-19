@@ -15,6 +15,6 @@ namespace DecoratorPattern
         /// All condiment classes must reimplement the GetDescription() method. 
         /// </summary>
         /// <returns></returns>
-        public new abstract string GetDescription();
+        public abstract override string Description { get; }
     }
 }

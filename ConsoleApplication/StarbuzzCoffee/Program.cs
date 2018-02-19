@@ -14,23 +14,23 @@ namespace StarbuzzCoffee
         static void Main(string[] args)
         {
             // Creates an order for an Espresso coffee with no condiments
-            Beverage beverage = new Espresso();
-            Console.WriteLine(beverage.GetDescription() + " $" + beverage.Cost());
+            Beverage espresso = new Espresso();
+            Console.WriteLine(espresso.Description + " $" + espresso.Cost());
 
             // Creates an order for a DarkRoast coffee with 2 mocha and a whip condiment
-            Beverage beverage2 = new DarkRoast();
-            beverage2 = new Mocha(beverage2);
-            beverage2 = new Mocha(beverage2);
-            beverage2 = new Whip(beverage2);
-            Console.WriteLine(beverage2.GetDescription() + " $" + beverage2.Cost());
+            Beverage darkRoast = new DarkRoast();
+            darkRoast = new Mocha(darkRoast);
+            darkRoast = new Mocha(darkRoast);
+            darkRoast = new Whip(darkRoast);
+            Console.WriteLine(darkRoast.Description + " $" + darkRoast.Cost());
 
             // Creates an order for a houseblend coffee with a soy, mocha and whip condiment
-            Beverage beverage3 = new HouseBlend();
-            beverage3 = new Soy(beverage3);
-            beverage3 = new Mocha(beverage3);
-            beverage3 = new Whip(beverage3);
-            Console.WriteLine(beverage3.GetDescription() + " $" + beverage3.Cost());
-
+            Beverage houseBlend = new HouseBlend();
+            houseBlend = new Soy(houseBlend);
+            houseBlend = new Mocha(houseBlend);
+            houseBlend = new Whip(houseBlend);
+            Console.WriteLine(houseBlend.Description + " $" + houseBlend.Cost());
+            
             Console.ReadLine();
         }
     }

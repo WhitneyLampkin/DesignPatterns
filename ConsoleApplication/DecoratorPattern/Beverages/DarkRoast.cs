@@ -14,9 +14,9 @@ namespace DecoratorPattern.Beverages
         /// <summary>
         /// Sets the beverage's description
         /// </summary>
-        public DarkRoast()
+        public override string Description
         {
-            description = "Dark Roast Coffee";
+            get { return "Dark Roast Coffee"; }
         }
 
         /// <summary>

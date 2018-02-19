@@ -22,9 +22,9 @@ namespace DecoratorPattern.Condiments
         /// Gets the current description and appends the steamed milk description
         /// </summary>
         /// <returns></returns>
-        public override string GetDescription()
+        public override string Description
         {
-            return beverage.GetDescription() + ", Steamed Milk";
+            get { return beverage.Description + ", Steamed Milk"; }
         }
 
         /// <summary>

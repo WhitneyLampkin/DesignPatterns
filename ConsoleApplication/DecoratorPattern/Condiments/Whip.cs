@@ -22,9 +22,9 @@ namespace DecoratorPattern.Condiments
         /// Gets the current description and appends teh mocha description
         /// </summary>
         /// <returns>description</returns>
-        public override string GetDescription()
+        public override string Description
         {
-            return beverage.GetDescription() + ", Whip";
+            get { return beverage.Description + ", Whip"; }
         }
 
         /// <summary>
@@ -33,7 +33,7 @@ namespace DecoratorPattern.Condiments
         /// <returns></returns>
         public override double Cost()
         {
-            return .10;
+            return .10 + beverage.Cost();
         }
     }
 }
